@@ -11,7 +11,7 @@
     <title>Timesong's Personal Website</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <nav class="navbar fixed-top navbar-expand-sm bg-dark navbar-dark">
         <div class="container">
             <a href="#" class="navbar-brand">Timesong's Personal Website</a>
 
@@ -20,9 +20,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><div class="nav-link">Home</div></li>
-                    <li class="nav-item"><div class="nav-link">About</div></li>
-                    <li class="nav-item"><div class="nav-link">3</div></li>
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#latestwork" class="nav-link">Work</a></li>
                 </ul>
             </div>
         </div>
@@ -60,8 +60,13 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="about-text">
-                         <h3 class="fs-4 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
-                         <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                         <h3 class="fs-4 mb-3">Proficiency in C++, C#, lua and other mainstream programming languages.</h3>
+                         <p class="text-muted">
+                            Good design and coding taste, love writing code, strong sense of responsibility.
+                            Good understanding of data structure and algorithm design, familiar with computer graphics, familiar with network programming and database use, skilled in using Unity and Unreal4 engines.
+                            Excellent analytical and problem solving skills, hands-on skills, communication and collaboration skills, and good stress tolerance
+                            Strong desire for knowledge and ability to learn.
+                        </p>
                     </div>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped table-hover table-condensed">
@@ -115,8 +120,8 @@
             </div>
         </div>
     </section>
-    <section class="testimonials py-5" id="testimonials">
-        <div class="container-lg py-4">
+    <section class="latestwork py-5" id="latestwork">
+        <div class="container py-4">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="section-title text-center">
@@ -128,68 +133,24 @@
                 <div class="col-lg-8 col-xl-7">
                   <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
                     <ol class="carousel-indicators">
-                       <li data-bs-target="#carousel1" data-bs-slide-to="0" class="active bg-danger"></li>
+                       <li class="active bg-danger" data-bs-target="#carousel1" data-bs-slide-to="0"></li>
                        <li class="bg-danger" data-bs-target="#carousel1" data-bs-slide-to="1"></li>
                        <li class="bg-danger" data-bs-target="#carousel1" data-bs-slide-to="2"></li>
                     </ol>
-                    <div class="carousel-inner p-1">
-                    <!-- testi item start -->
                     <div class="testi-item carousel-item active bg-white shadow-sm rounded p-4 mb-5">
-                        <div class="testi-author-info d-flex align-items-center">
-                            <img src="img/testimonial/1.jpg" class="img-thumbnail rounded-circle" alt="author img">
-                            <div class="author ms-3">
-                               <h3 class="fs-6 mb-1">Raj Himachal</h3>
-                               <p class="text-muted m-0">Seo Manager</p>
-                            </div>
-                        </div>
-                        <p class="text-muted mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <div class="rating text-danger">
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                        </div>
+                        <p class="text-muted mt-3">Unity development. Responsible for the development of client-side chat, chat room and guild ally system for RO Hong Kong, Macau and Taiwan version, responsible for the implementation of in-game rich text, responsible for the development and access to voice SDK of the pkg download Android and ios for Hong Kong, Macau and Taiwan version.
+                            Responsible for the development of Android and ios pkg download and voice SDK access, responsible for the development and maintenance of client planning form tools and project team CI/CD pipeline.</p>
                     </div>
-                    <!-- testi item end -->
-                    <!-- testi item start -->
                     <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
-                        <div class="testi-author-info d-flex align-items-center">
-                            <img src="img/testimonial/2.jpg" class="img-thumbnail rounded-circle" alt="author img">
-                            <div class="author ms-3">
-                               <h3 class="fs-6 mb-1">Raj Himachal</h3>
-                               <p class="text-muted m-0">Seo Manager</p>
-                            </div>
-                        </div>
-                        <p class="text-muted mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <div class="rating text-danger">
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                        </div>
+                        <p class="text-muted mt-3">Developed multiplayer TPS based on Unreal 4, responsible for the implementation of the game framework and main logic.</p>
                     </div>
-                    <!-- testi item end -->
-                    <!-- testi item start -->
                     <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
-                        <div class="testi-author-info d-flex align-items-center">
-                            <img src="img/testimonial/3.jpg" class="img-thumbnail rounded-circle" alt="author img">
-                            <div class="author ms-3">
-                               <h3 class="fs-6 mb-1">Raj Himachal</h3>
-                               <p class="text-muted m-0">Seo Manager</p>
-                            </div>
-                        </div>
-                        <p class="text-muted mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <div class="rating text-danger">
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                        </div>
+                        <p class="text-muted mt-3">Based on the most accessible video data in human-computer interaction, text, language and video modalities are separated from them and combined with deep learning techniques for multimodal emotion recognition research. First
+                            We first focus on the pre-processing of text, speech and video modal data. This paper first introduces the unimodal (text, speech, and video) sentiment analysis method. On the basis of this, the
+                            two multimodal (text, speech, and video-based) sentiment analysis methods are implemented, which are tensor fusion network and Transformers-based network model, and the latest
+                            The two multimodal (text, speech, and video-based) sentiment analysis methods, tensor fusion network and transformers-based network model, are implemented and tested on the new English multimodal dataset CMU-MOSEI and Chinese multimodal dataset CH-SIMS. Meanwhile, according to the different labels of different modalities in the dataset
+                            Multi-task learning is achieved, and the performance of the model is effectively improved.</p>
                     </div>
-                    <!-- testi item end -->
                     </div>
                   </div>
                 </div>
